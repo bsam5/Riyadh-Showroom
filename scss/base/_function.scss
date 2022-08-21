@@ -1,0 +1,7 @@
+@function fun($val) {
+  @if $direction == ltr {
+    @return $val;
+  } @else {
+    @return $val * -1;
+  }
+}

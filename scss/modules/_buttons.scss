@@ -1,0 +1,107 @@
+/* Start social icons*/
+.social-media {
+  li {
+    border: 1px solid;
+    transition: $trans;
+    &:not(:last-child) {
+      margin-inline-end: 16px;
+    }
+    a {
+      width: 48px;
+      height: 48px;
+    }
+    &:hover {
+      background-color: #fff;
+      path {
+        transition: $trans;
+        fill: $purBoldC;
+      }
+      g {
+        &[data-name="Ellipse 87"],
+        &[data-name="Rectangle 447"] {
+          transition: $trans;
+          stroke: $purBoldC;
+        }
+      }
+    }
+  }
+}
+
+.social-media-sec {
+  max-width: 234px;
+  margin: auto;
+  li {
+    border: none;
+    margin: 0;
+    transition: $trans;
+    a {
+      width: 24px;
+      height: 24px;
+    }
+    &:hover {
+      path {
+        transition: $trans;
+        fill: rgb(146, 146, 146);
+      }
+      g {
+        &[data-name="Ellipse 87"],
+        &[data-name="Rectangle 447"] {
+          transition: $trans;
+          stroke: rgb(146, 146, 146);
+        }
+      }
+    }
+    path {
+      fill: #d4d4d4;
+    }
+    g {
+      &[data-name="Ellipse 87"],
+      &[data-name="Rectangle 447"] {
+        stroke: #d4d4d4;
+      }
+    }
+  }
+}
+
+/* End social icons*/
+
+/* From uiverse.io by @barisdogansutcu */
+#load {
+  margin-top: 20px;
+  svg {
+    width: 3.25em;
+    transform-origin: center;
+    animation: rotate4 2s linear infinite;
+
+    circle {
+      fill: none;
+      stroke: hsl(214, 97%, 59%);
+      stroke-width: 2;
+      stroke-dasharray: 1, 200;
+      stroke-dashoffset: 0;
+      stroke-linecap: round;
+      animation: dash4 1.5s ease-in-out infinite;
+    }
+  }
+}
+@keyframes rotate4 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash4 {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+
+  50% {
+    stroke-dasharray: 90, 200;
+    stroke-dashoffset: -35px;
+  }
+
+  100% {
+    stroke-dashoffset: -125px;
+  }
+}

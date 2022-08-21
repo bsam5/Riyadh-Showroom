@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132">
+  <g id="Group_3045" data-name="Group 3045" transform="translate(-1038 -327)">
+    <g id="Component_6_19" data-name="Component 6 – 19" transform="translate(1079 368)">
+      <path id="Icon_awesome-user" data-name="Icon awesome-user" d="M21.875,25a12.5,12.5,0,1,0-12.5-12.5A12.5,12.5,0,0,0,21.875,25Zm8.75,3.125H28.994a17,17,0,0,1-14.238,0H13.125A13.128,13.128,0,0,0,0,41.25v4.062A4.689,4.689,0,0,0,4.688,50H39.063a4.689,4.689,0,0,0,4.687-4.687V41.25A13.128,13.128,0,0,0,30.625,28.125Z" transform="translate(1)" fill="#fff"/>
+      <rect id="Rectangle_1416" data-name="Rectangle 1416" width="50" height="50" fill="#fff" opacity="0"/>
+    </g>
+    <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(1038 327)" fill="none" stroke="#fff" stroke-width="1">
+      <circle cx="66" cy="66" r="66" stroke="none"/>
+      <circle cx="66" cy="66" r="65.5" fill="none"/>
+    </g>
+  </g>
+</svg>

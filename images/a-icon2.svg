@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132">
+  <g id="Group_3044" data-name="Group 3044" transform="translate(-617 -327)">
+    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(617 327)" fill="none" stroke="#fff" stroke-width="1">
+      <circle cx="66" cy="66" r="66" stroke="none"/>
+      <circle cx="66" cy="66" r="65.5" fill="none"/>
+    </g>
+    <g id="Component_8_24" data-name="Component 8 – 24" transform="translate(658 373)">
+      <path id="Icon_awesome-store" data-name="Icon awesome-store" d="M48.869,9.628,43.6,1.218A2.6,2.6,0,0,0,41.4,0H8.6A2.6,2.6,0,0,0,6.4,1.218L1.136,9.628C-1.584,13.971.827,20.01,5.909,20.7a8.437,8.437,0,0,0,1.112.073,8.016,8.016,0,0,0,5.991-2.687,8.022,8.022,0,0,0,11.982,0,8.022,8.022,0,0,0,11.982,0,8.042,8.042,0,0,0,5.991,2.687,8.346,8.346,0,0,0,1.112-.073C49.177,20.019,51.6,13.979,48.869,9.628ZM42.983,23.379a10.3,10.3,0,0,1-2.395-.308v8.1H9.416v-8.1a10.754,10.754,0,0,1-2.395.308,10.953,10.953,0,0,1-1.461-.1,10.209,10.209,0,0,1-1.331-.292V38.966a2.6,2.6,0,0,0,2.6,2.6H43.194a2.6,2.6,0,0,0,2.6-2.6V22.99a8.288,8.288,0,0,1-1.331.292A11.289,11.289,0,0,1,42.983,23.379Z" transform="translate(-0.004 1)" fill="#fff"/>
+      <rect id="Rectangle_1418" data-name="Rectangle 1418" width="50" height="50" fill="#fff" opacity="0"/>
+    </g>
+  </g>
+</svg>

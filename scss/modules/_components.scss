@@ -1,0 +1,118 @@
+@import "fullpage.min.css";
+@import "select2.min.css";
+
+/*  Start reserve-place div  */
+.reserve-place {
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 30px;
+
+  .about {
+    padding-inline-start: 20px;
+    h4 {
+      font-size: 20px;
+      font-weight: bold;
+      color: $purpleColor;
+    }
+    p {
+      line-height: 1.6;
+    }
+    a {
+      display: block;
+      width: 160px;
+      margin-top: 6px;
+      margin-inline-start: auto;
+    }
+  }
+  img {
+    border-radius: 10px;
+    height: 272px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1100px) {
+  .reserve-place {
+    padding: 20px 15px;
+    .about {
+      padding-inline-start: 10px;
+      h4 {
+        font-size: 18px;
+      }
+    }
+    img {
+      height: 245px;
+    }
+  }
+}
+@media (max-width: 991px) {
+  .reserve-place {
+    padding: 15px;
+    .about {
+      padding-inline-start: 0px;
+      h4 {
+        font-size: 18px;
+      }
+      a {
+        width: 120px;
+        line-height: 40px;
+      }
+    }
+    img {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .reserve-place {
+    padding: 10px;
+    .about {
+      h4 {
+        font-size: 16px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 1.5;
+      }
+    }
+    img {
+      display: none;
+    }
+  }
+}
+/*  end reserve-place div  */
+
+/*  end padged div  */
+.badge-place {
+  line-height: 1;
+  padding: 11px 0;
+  background-color: $purpleColor;
+  color: #fff;
+  border-radius: 10px;
+  width: 58px;
+  height: fit-content;
+  .num {
+    font-size: 26px;
+    font-weight: 500;
+  }
+  .text {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+/*  end padged div  */
+/*  Start contact icons  */
+
+.contact {
+  font-size: 14px;
+  color: #646464;
+  margin-bottom: 10px;
+  img {
+    width: 12px;
+    height: 12px;
+    -webkit-filter: invert(79%) sepia(31%) saturate(0%) hue-rotate(137deg)
+      brightness(108%) contrast(81%);
+    filter: invert(79%) sepia(31%) saturate(0%) hue-rotate(137deg)
+      brightness(108%) contrast(81%);
+  }
+}
+/*  end contact icons  */

@@ -1,0 +1,108 @@
+.icon-form {
+  position: relative;
+  img {
+    position: absolute;
+    top: 53%;
+    transform: translateY(-50%);
+    #{$dirLeft}: 12px;
+    z-index: 99;
+  }
+  input {
+    &:focus {
+      border-color: $purpleColor;
+      box-shadow: none;
+    }
+    &:not([type="checkbox"]) {
+      border-color: #eeecec;
+      border-radius: 8px;
+      height: 50px;
+      padding-inline-start: 32px;
+      padding-inline-end: 6px;
+    }
+    &[type="checkbox"] {
+      border-color: #eeecec;
+      height: 27px;
+      width: 27px;
+      margin-inline-end: 9px;
+    }
+  }
+  .select2-selection--single {
+    &:focus {
+      border-color: $purpleColor;
+      box-shadow: none;
+    }
+    border-color: #eeecec;
+    border-radius: 8px;
+    height: 50px;
+    text-align: $dirLeft;
+    padding: 0 32px;
+    .select2-selection__rendered {
+      line-height: 50px;
+      padding: 0;
+    }
+    .select2-selection__arrow {
+      top: 14px;
+      #{$dirRight}: 12px;
+    }
+  }
+  .parsley-errors-list {
+    list-style: none;
+    color: red;
+    position: absolute;
+    z-index: 99;
+    bottom: -23px;
+    #{$dirLeft}: 7px;
+    li {
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+}
+.btn {
+  font-weight: 500;
+  width: 200px;
+  line-height: 50px;
+  padding: 0;
+  border-radius: 8px;
+  background-color: $purpleColor;
+  color: #fff;
+  display: inline-block;
+  border: 1px solid transparent;
+  outline: 0;
+  transition: $trans;
+  padding-bottom: 4px;
+  &:hover {
+    border-color: $purpleColor;
+    background-color: #fff;
+    color: $purpleColor;
+  }
+}
+@media (max-width: 767px) {
+  .icon-form {
+    input {
+      &:not([type="checkbox"]) {
+        height: 40px;
+      }
+    }
+    .select2-selection--single {
+      height: 40px;
+      .select2-selection__rendered {
+        line-height: 40px;
+      }
+      .select2-selection__arrow {
+        top: 7px;
+        #{$dirRight}: 12px;
+      }
+    }
+    .parsley-errors-list {
+      bottom: -23px;
+      li {
+        font-size: 15px;
+      }
+    }
+  }
+  .btn {
+    width: 150px;
+    line-height: 40px;
+  }
+}
